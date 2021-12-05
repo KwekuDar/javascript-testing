@@ -25,6 +25,16 @@ const setupInput = function (conn) {
     if (key === 'd') {
         connection.write("Move: right");
       }
+    if (key === 'z') {
+        connection.write("Say: testing testing one two three");
+      }
+    if (key === 'x') {
+        connection.write("Say: God I'm so good at coding");
+      }
+    if (key === 'c') {
+        connection.write("Say: Imma make bail tonight");
+      }
+    
   };
 
 module.exports = {setupInput};
